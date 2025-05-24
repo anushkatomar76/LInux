@@ -1,0 +1,42 @@
+🎯Linux File System Hierarchy--
+⭐In Linux everything is represented as a file including a hardware program, the files are stored in a directory, and every directory contains a file with a tree structure, that is called file system hierarchy.
+
+🎯Task: What is the linux command to
+
+🎯1. To view what's written in a file?
+---> to view the content of a file cat command is used like
+---> eg. cat filename
+
+🎯2. To change the access permissions of files?
+---> chmod command is used to change the files permission.
+---> eg. chmod 700 filename
+
+🎯3. To check which commands you have run till now?
+---> history command is used to see the all commands run till now.
+---> eg. history
+
+🎯4. To remove a directory/ Folder?
+---> rm command is used to remove a folder.
+---> eg. rm -rf directoryname
+
+🎯5. To create a fruits.txt file and to view the content?
+---> To create a “fruits.txt” file in Linux, you can use the “touch” command. 📄This command will create an empty file named “fruits.txt” in the current directory.
+Next, to view the content of the “fruits.txt” file, you can use the “cat” command.
+---> eg. touch filename
+
+🎯6. Add content in fruits.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+---> To add content to the “fruits.txt” file, you can use a text editor or the “echo” command to append each fruit on a new line. Here’s an example using the “echo” command.
+---> echo -e "Apple\nMango\nBanana\ncherry\nkiwi\norange\nguava > fruits.txt
+This command adds each fruit on a separate line in the “fruits.txt” file. You can then use the “cat” command to view the contents of the file
+
+🎯7. To Show only the top three fruits from the file?
+---> To display only the top three fruits from the “fruits.txt” file, you can use the “head” command with the “-n” option, specifying the number of lines you want to see. In this case, we want to see the first three lines, which represent the top three fruits in the file.
+---> eg. head -n fruits.txt
+
+🎯8. To Show only the bottom three fruits from the file?
+---> To display only the bottom three fruits from the “fruits.txt” file, you can use the “tail” command with the “-n” option, specifying the number of lines you want to see from the end of the file. In this case, we want to see the last three lines, which represent the bottom three fruits in the file.
+---> eg. tail -n fruits.txt
+
+🎯9. To create another file Colors.txt and to view the content?
+---> To create a new file called “Colors.txt” in Linux, you can use the “touch” command followed by the desired filename
+---> eg. touch colors.txt
