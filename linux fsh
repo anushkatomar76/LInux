@@ -40,3 +40,10 @@ This command adds each fruit on a separate line in the “fruits.txt” file. Yo
 🎯9. To create another file Colors.txt and to view the content?
 ---> To create a new file called “Colors.txt” in Linux, you can use the “touch” command followed by the desired filename
 ---> eg. touch colors.txt
+
+#scp
+--> from remote to local
+scp -i "boom-key.pem" ubuntu@ec2-3-87-223-95.compute-1.amazonaws.com:/home/ubuntu/anushka/file3.txt .
+
+--> from local to remote
+scp -i "boom-key.pem" sign.jpg ubuntu@ec2-3-87-223-95.compute-1.amazonaws.com:/home/ubuntu/linux
