@@ -1,0 +1,15 @@
+---> A Linux shell script is a text file containing a series of commands that are executed in sequence by a shell interpreter. It is used for automating tasks, performing system operations, and creating simple to complex programs on Unix-like operating systems. Shell scripts are written in a shell language (such as Bash) and enable users to automate tasks and execute multiple commands in a specific order from the command line.
+
+🎯What is a Kernel?
+---> The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+🎯 What is Shell?
+---> A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
+🎯 What is #!/bin/bash? can we write #!/bin/sh as well?
+---> #!/bin/bash indicates that the script should be interpreted using the Bash shell, which is a widely used and feature-rich shell on Linux systems, 
+Yes, #!/bin/bash and #!/bin/sh are both examples of shebang lines in Linux shell scripts.
+🎯Write a Shell Script that prints I will complete hashtag#90DaysOofDevOps challenge?
+---> #!/bin/bash
+---> echo "I will complete hashtag#90DaysOfDevOps challenge"
+To run this script, you need to save it to a file, for example, devops_challenge.sh. Then, make the script executable using the chmod command:
+After making the script executable, you can run it using:
+./devops_challenge.sh
