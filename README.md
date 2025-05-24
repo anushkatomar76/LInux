@@ -5,6 +5,7 @@
 ## ⭐Allows high security, and does not need any anti-virus software.
 ## ⭐Linux is mostly used for production deployment.
 
+----------------------------------------------------
 ## Basic Commands of Linux?
  ✔️ Check your present working directory.
  --->    pwd
